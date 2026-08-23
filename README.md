@@ -1,32 +1,26 @@
-# 🚗 Car Price Prediction with Machine Learning - CodeAlpha Task 3
+# 📈 Unemployment Analysis with Python - CodeAlpha Task 2
 
 ## 📌 Project Overview
-This project applies supervised machine learning regression techniques to predict used car market selling prices based on vehicular features such as current showroom price, vehicle age, mileage driven, fuel type, transmission, and ownership history.
+This project conducts comprehensive Exploratory Data Analysis (EDA) on unemployment rates to investigate socioeconomic patterns and analyze the impact of the **Covid-19 pandemic** on the labor market.
 
 ---
 
 ## 👩‍💻 Student Information
-- **Student Name**: Mariam Hossam Raghep
+- **Name**: Mariam Hossam Raghep
 - **Student ID**: CA/DF1/224387
 - **Internship Domain**: Data Science
 - **Organization**: CodeAlpha
 
 ---
 
-## ⚙️ Methodology & Implementation
-1. **Feature Engineering**:
-   - Converted release year to vehicle age (`Car_Age = Current_Year - Year`).
-   - Applied One-Hot Encoding to handle categorical variables (`Fuel_Type`, `Seller_Type`, `Transmission`).
-2. **Exploratory Analysis**: Generated feature correlation heatmaps to assess strong predictors of price.
-3. **Machine Learning Algorithms**:
-   - Linear Regression
-   - Random Forest Regressor
-   - Gradient Boosting Regressor
-4. **Evaluation Metrics**: Evaluated models using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score.
+## 🔑 Key Insights & Findings
+1. **Covid-19 Impact**: Unemployment rates spiked significantly after March 2020 following worldwide and national lockdown implementations.
+2. **Urban vs. Rural Differences**: Urban regions experienced sharper volatility in unemployment due to stricter lockdown restrictions on service sectors.
+3. **Policy Implications**: Highlights the critical need for resilient social safety nets and remote employment infrastructure.
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run Locally
 ```bash
 pip install -r requirements.txt
-python car_price_prediction.py
+python unemployment_analysis.py
